@@ -1,0 +1,28 @@
+img{
+    width:300px;
+}
+
+h1{
+    color:white;  
+}
+
+.profile {
+    background:saddlebrown;
+    color:white;
+}
+
+.work-experience {
+    background:burlywood;
+}
+
+.education {
+    background:greenyellow;
+}
+
+.publications {
+    background:lightcyan;
+}
+
+#main-title {
+    color:whitesmoke;
+}
