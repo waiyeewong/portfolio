@@ -1,31 +1,80 @@
-img{
-    width:300px;
+/* gloal styles
+----------------------------------------------- */
+
+body {
+    color: #343434;
 }
 
-h1{
-    color:white;  
+img {
+    width: 300px;
 }
 
-.profile {
-    background:saddlebrown;
-    color:white;
-}
-
-.work-experience {
-    background:burlywood;
-}
-
-.education {
-    background:greenyellow;
-}
-
-.publications {
-    background:lightcyan;
+h1 {
+    color: white;
+    font-family: "Papyrus";  
 }
 
 #main-title {
-    color:whitesmoke;
+    color: whitesmoke;
+}
+
+a {
+    color: #008000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* profile 
+----------------------------------------------- */
+
+header {
+    background: #201E1F;
+    padding: 8px;
+    color: white;
+}
+
+/* projects 
+----------------------------------------------- */
+
+.projects {
+    background: white;
+    padding: 8px;
+}
+
+/* work experience 
+----------------------------------------------- */
+
+.work-experience {
+    background: #FF4000;
+    padding: 8px;
+}
+
+/* education 
+----------------------------------------------- */
+
+.education {
+    background: #FAAA8D;
+    padding: 8px;
+}
+
+/* publications 
+----------------------------------------------- */
+
+.publications {
+    background: #FEEFDD;
+    padding: 8px;
+}
+
+/* contact 
+----------------------------------------------- */
+
+.contact {
+    background: #50B2C0;
+    padding: 8px;
 }
 
 #small-note {
     font-size: small;
+}
