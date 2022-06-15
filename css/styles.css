@@ -43,6 +43,21 @@ header {
     padding: 8px;
 }
 
+.projects a {
+    display: block-inline;
+    padding: 8px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    color: gold;
+    background: rgb(0, 191, 255);
+    text-decoration: none;
+}
+
+.projects a:hover {
+    background: rgba(0, 191, 225, 70%);
+    /* outline: 1px solid black; */
+}
+
 /* work experience 
 ----------------------------------------------- */
 
