@@ -44,7 +44,7 @@ header {
 }
 
 .projects a {
-    display: block-inline;
+    display: inline-block;
     padding: 8px;
     margin-bottom: 4px;
     border-radius: 4px;
