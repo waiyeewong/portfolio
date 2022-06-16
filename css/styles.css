@@ -1,4 +1,4 @@
-/* gloal styles
+/* global styles
 ----------------------------------------------- */
 
 body {
@@ -24,6 +24,11 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+.content-wrap {
+	width: 800px;
+	margin: 0 auto;
 }
 
 /* profile 
