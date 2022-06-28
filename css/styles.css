@@ -1,6 +1,13 @@
 /* global styles
 ----------------------------------------------- */
 
+html {
+    box-sizing: border-box
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     color: #343434;
 }
@@ -61,6 +68,21 @@ header {
 .projects a:hover {
     background: rgba(0, 191, 225, 70%);
     /* outline: 1px solid black; */
+}
+
+.project-item {
+    overflow: hidden;
+    /* border-bottom: 1px dashed #343434;
+    padding: 25px 0; */
+}
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
 }
 
 /* work experience 
