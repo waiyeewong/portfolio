@@ -45,6 +45,7 @@ a:hover {
 header {
     background: #201E1F;
     color: white;
+    text-align: center;
 }
 
 /* projects 
@@ -111,8 +112,23 @@ header {
 
 .contact {
     background: #50B2C0;
+    text-align: center;
 }
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
+
 
 #small-note {
     font-size: small;
 }
+
