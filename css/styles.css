@@ -90,7 +90,29 @@ header {
 ----------------------------------------------- */
 
 .work-experience {
-    background: #FF4000;
+    background: #ff6600;
+}
+
+.job-item {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 20px 0;
+    /* grid-template-columns: 1fr 2fr; */
+    /* column-gap: 20px; */
+    border-bottom: thin dashed #4b4b4b;
+}
+
+
+.job-details h3 {
+    margin-top: 0;
+}
+
+.job-summary {
+    margin-top: -10px;
+}
+
+.job-details h4 {
+    margin-bottom: 0;
 }
 
 /* education 
