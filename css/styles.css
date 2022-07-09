@@ -36,7 +36,7 @@ a:hover {
 .content-wrap {
 	width: 800px;
 	margin: 0 auto;
-    padding: 60px 0
+    padding: 40px 0
 }
 
 /* profile 
@@ -120,6 +120,31 @@ header {
 
 .education {
     background: #FAAA8D;
+}
+
+.edu-item {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    /* padding: 20px 0; */
+    /* grid-template-columns: 1fr 2fr; */
+    /* column-gap: 20px; */
+    border-bottom: thin dashed #4b4b4b;
+}
+
+.edu-details h4 {
+    margin: 0;
+}
+
+.edu-details p {
+    margin-top: 0;
+}
+
+.edu-details {
+    margin-top: 0;
+}
+
+.edu-summary {
+    margin-top: 0;
 }
 
 /* publications 
