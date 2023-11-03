@@ -99,7 +99,7 @@ header {
 ----------------------------------------------- */
 
 .work-experience {
-    background: #ff6600;
+    background: #F1E4E8;
 }
 
 .job-item {
@@ -123,11 +123,19 @@ header {
     margin-bottom: 0;
 }
 
+/* skills 
+----------------------------------------------- */
+
+.skills {
+    background: #E2DCDE;
+}
+
+
 /* education 
 ----------------------------------------------- */
 
 .education {
-    background: #FAAA8D;
+    background: #D8C7CE;
 }
 
 .edu-item {
@@ -158,7 +166,7 @@ header {
 ----------------------------------------------- */
 
 .publications {
-    background: #FEEFDD;
+    background: #CEB1BE;
 }
 
 /* contact 
