@@ -18,7 +18,7 @@ img {
 
 h1, h2 {
     /* color: white; */
-    font-family: "Papyrus";  
+    font-family: "Calibri";  
 }
 
 #main-title {
@@ -86,7 +86,7 @@ header {
     padding: 25px 0; */
 }
 
-.project-item img {
+.project-item iframe {
     float: left;
     margin-right: 20px;
 }
